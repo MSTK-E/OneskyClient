@@ -1,0 +1,155 @@
+body *{
+  color: #555;
+}
+
+h1 {
+  margin: 0;
+  padding: 5px 25px;
+  background: #2ea8e6;
+  font-weight: normal;
+  font-size: 25px;
+  color: #FFF;
+  border-bottom: 1px solid #1d74ba;
+}
+
+h2 {
+  margin: 10px 0;
+  font-size: 16px;
+  border-left: 5px solid #2ea8e6;
+  padding-left: 5px;
+}
+
+main {
+  padding: 25px;
+  min-width: 350px;
+}
+
+p {
+  font-size: 12px;
+  margin: 0;
+}
+
+button {
+  width: 120px;
+  border-radius: 5px;
+  outline: none;
+  font-size: 14px;
+  padding: 5px 0;
+}
+
+button.primary {
+  border: 1px solid #20a277;
+  background: #29CC96;
+  color: #fff;
+}
+
+button.primary:hover {
+  background: #20a277;
+}
+
+button.cancel {
+  border: 1px solid #c94418;
+  background: #E65C2E;
+  color: #fff;
+}
+
+button.cancel:hover {
+  background: #E65C2E;
+}
+
+.infoSection,
+.inputSection {
+  margin-bottom: 25px;
+}
+
+.infoSection {
+  width: 90%;
+  padding: 5px 5%;
+  border: 1px solid #CCC;
+  border-radius: 5px;
+  background: #e4e7eb;
+}
+
+.infoSection p {
+  margin: 5px 0;
+  width: 100%;
+}
+
+.infoSection span {
+  display: inline-block;
+  line-height: 20px;
+  width: 20%;
+}
+
+.infoSection input {
+  display: inline-block;
+  box-sizing: border-box;
+  vertical-align: top;
+  height: 20px;
+  width: 80%;
+}
+
+.inputSection {
+  height: 62px;
+}
+
+.resourceInputs span {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 4%;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.resourceInputs input {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 48%;
+  margin-bottom: 10px;
+}
+
+.resourceInputs input.error {
+  border: 2px solid #c94418;
+}
+
+.ctrlBtns,
+.resourceInputs {
+  display: none;
+}
+
+.ctrlBtns.show,
+.resourceInputs.show,
+#main .span.show {
+  display: block;
+}
+
+#main {
+  margin-top: 15px;
+  width: 90%;
+  padding: 5px 5%;
+  margin-bottom: 15px;
+  border: 1px solid #CCC;
+  border-radius: 5px;
+  background: #e4e7eb;
+}
+
+#main table {
+  width: 100%;
+}
+
+#main tr {
+  margin: 0;
+}
+
+#main td {
+  width: 50%;
+  line-height: 15px;
+  height: 100%;
+  padding: 0 5px;
+  font-size: 12px;
+  box-sizing: border-box;
+  display: inline-block;
+  overflow: scroll;
+  border: 1px solid #CCC;
+  background: #fff;
+}

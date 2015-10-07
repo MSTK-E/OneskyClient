@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+  <meta name="format-detection" content="telephone=no">
+  <title>Electron Example</title>
+  <link rel="stylesheet" type="text/css" href="node_modules/normalize-css/normalize.css"></link>
+  <link rel="stylesheet" type="text/css" href="css/main.css"></link>
+</head>
+<body>
+
+  <h1>OneSky Client</h1>
+
+  <main>
+
+    <h2>Information</h2>
+    <div class="infoSection">
+      <p><span>Platform ID</span><input type="text" class="platformId" value=""></p>
+      <p><span>Public Key</span><input type="text" class="publicKey" value=""></p>
+      <p><span>Private Key</span><input type="text" class="privateKey" value=""></p>
+      <p><span>Locale</span><input type="text" class="locale" value=""></p>
+    </div>
+
+    <h2>Resource Controll</h2>
+    <div class="inputSection">
+      <div class="ctrlBtns show">
+        <button class="primary" id="getResource">Get Resource</button>
+        <button class="primary" id="addResourceTrigger">Add Resource</button>
+      </div>
+      <div class="resourceInputs">
+        <input id="string" type="text" placeholder="String"></input><span>:</span><input id="stringKey" type="tetx" placeholder="String Key"></input>
+        <button class="cancel" id="cancel">Cancel</button>
+        <button class="primary" id="addResource">Add</button>
+      </div>
+    </div>
+
+    <h2>Resources</h2>
+    <div id="main">Loding...</div>
+
+  </main>
+
+  <script src="js/index.js"></script>
+
+</body>
+</html>
+
